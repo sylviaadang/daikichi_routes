@@ -10,6 +10,5 @@ public class DiakichiRoutesApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DiakichiRoutesApplication.class, args);
 	}
-	
-	
+		
 }
