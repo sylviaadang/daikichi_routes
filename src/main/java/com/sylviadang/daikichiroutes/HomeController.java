@@ -25,7 +25,7 @@ public class HomeController {
 	return "Congratulations! You will travel to " + location + "!"; 
 	}
 	
-	@RequestMapping("/{lotto}/{number}")
+	@RequestMapping("/lotto/{number}")
 	public String lotto(@PathVariable("number") int number) {
 		if (number % 2 == 0) {
 			return "You will take a grand journey in the near future, but be wary of tempting offers.";
